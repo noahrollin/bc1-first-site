@@ -1,0 +1,197 @@
+/*Start of Index*/
+
+body {
+  margin: 0 auto;
+  background-color: #FFFF75;
+}
+
+/*Start of Nav Bar*/
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    color: #FFFF75;
+    background-color: #00FFFF;
+ }
+
+.logo {
+    width: 100px;
+    height: 75px;
+}
+
+.nav-list {
+    float: right;
+}
+
+.list-item {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    background-color: #FA8072;
+    height: 35px;
+    width: 60px;
+    border: 2px solid #FFFF75;
+    border-radius: 18px;
+}
+
+.list-item:hover {
+    background-color: #FFFF75;
+}
+
+.anchor {
+    margin-top: 8px;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #FFFF75;
+}
+
+.anchor :hover {
+    color: #00FFFF;
+}
+
+/*End of Nav Bar*/
+
+/*Start of Hero Section*/
+
+.hero {
+    background-image: url(../img/header.jpg);
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-background {
+    background-color:  #FA8072;
+    position: absolute;
+    bottom: 50%;
+    left: 47%;
+    color: #FFFF75;
+}
+
+/*End of Hero Section*/
+
+/*Start of Main Body*/
+
+.main {
+    height: 600px;
+    width: 100%;
+}
+
+.box {
+    height: 550px;
+    width:46%;
+    border: 3px solid #FA8072;
+    float: left;
+    margin: 25px 25px 25px 25px;
+}
+
+.bananaslices {
+    height: 550px;
+    width: 100%;
+}
+
+/*End of Main Body*/
+
+/*Start of Footer*/
+
+footer {
+    background-color: #00FFFF;
+    height: 75px;
+    clear: both;
+}
+
+.footer-col {
+    width: 33%;
+    float: left;
+}
+
+.footer-buttons, .social, .copyright {
+    display: block;
+    text-align: center;
+}
+
+.footer-buttons {
+    margin-top: 18px;
+}
+
+.input {
+    height: 16px;
+    width: 100px;
+}
+
+.button {
+    height: 22px;
+    width: 58px;
+}
+
+.fab {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.fa-facebook-square {
+    color: #4267b2;
+}
+
+.fa-instagram {
+    color: #231F20;
+}
+
+/*End of Footer*/
+
+/*End of Index*/
+
+/*Start of About*/
+
+.container {
+    height: 685px;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.column {
+    height: 650px;
+    width: 30%;
+    border: 6px solid #FA8072;
+    float: left;
+    margin-left: 30px;
+}
+
+.col-img {
+    display: block;
+    margin: 0 auto;
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*End of About*/
+
+/*Start of Contact*/
+
+.contact-container {
+    width: 100%;
+    height:640px;
+    margin-top: 100px;
+}
+
+.contact-col {
+    width: 48%;
+    height: 525px;
+    border: 6px solid #FA8072;
+    float: left;
+    margin-left: 13px;
+}
+
+.map {
+    text-align: center;
+}
+
+/*End of Contact*/
